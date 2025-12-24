@@ -11,12 +11,11 @@ The project consists of 5 main files:
 | File | Description |
 |------|-------------|
 | **`Хронология.json`** | Raw location history data from Google Takeout (input file) |
-<img width="1268" height="997" alt="image" src="https://github.com/user-attachments/assets/714902d8-bd29-4ccb-8b65-ecdf16b06ac3" />
 | **`reformating.py`** | Data preprocessing script that cleans JSON, groups activities (`WALKING`, `BUS`, `CAR`), calculates duration/speed, and generates `my_location_features.csv` |
 | **`dataMiningMath.py`** | Statistical analysis script that creates distribution charts, calculates class balance, and reports speed/distance statistics |
 | **`kMeans.py`** | Clustering script that standardizes data and applies K-Means algorithm to create 5 clusters, visualized with scatter plots |
 | **`decisionTree.py`** | Classification script that trains a Decision Tree model to predict activity types and displays results with a confusion matrix |
-
+<img width="1268" height="997" alt="image" src="https://github.com/user-attachments/assets/714902d8-bd29-4ccb-8b65-ecdf16b06ac3" />
 ---
 
 ## 🛠️ Requirements
